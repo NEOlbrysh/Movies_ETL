@@ -17,7 +17,7 @@ Extract and Transform the Wikipedia data
 We filtered out the TV shows, consolidated the redundant data, removed the duplicates and formatted the Wikipedia data.
 
 Extract and Transform the Kaggle and rating data
-Again, we consolidated the redundant data, removed the duplicates, formatted and grouped the data.
+Again, we consolidated the redundant data, removed the duplicates, formatted, and grouped the data.
 The Kaggle and rating data were then merged with the Wikipedia movies DataFrame.
 
 
