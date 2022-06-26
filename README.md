@@ -8,3 +8,17 @@ For this analysis, we used the following breakdown:
 - Extract and transform the Wikipedia data,
 - Extract and transform the Kaggle and rating data,
 - Load the data to a PostgreSQL Movie Database.
+
+## Results
+Write an ETL function to read three data files
+The function takes the Wikipedia JSON, the Kaggle metadata and MovieLens csv files and creates three separate DataFrames.
+
+Extract and Transform the Wikipedia data
+We filtered out the TV shows, consolidated the redundant data, removed the duplicates and formatted the Wikipedia data.
+
+Extract and Transform the Kaggle and rating data
+Again, we consolidated the redundant data, removed the duplicates, formatted and grouped the data.
+The Kaggle and rating data were then merged with the Wikipedia movies DataFrame.
+
+
+Create the Movie Database
